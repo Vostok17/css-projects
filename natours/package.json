@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch --no-source-map sass/main.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vostok17/css-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vostok17/css-projects/issues"
+  },
+  "homepage": "https://github.com/Vostok17/css-projects#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
