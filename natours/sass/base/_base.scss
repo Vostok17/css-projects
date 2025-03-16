@@ -1,0 +1,18 @@
+/* global reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 65.5%;
+}
+
+/* font should be specified here in body selector */
+body {
+  box-sizing: border-box;
+}
