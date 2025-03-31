@@ -1008,12 +1008,6 @@ body {
     right: 4rem;
   }
 }
-@media only screen and (max-width: 37.5em) {
-  .navigation__button {
-    top: 3rem;
-    right: 3rem;
-  }
-}
 .navigation__background {
   height: 6rem;
   width: 6rem;
@@ -1063,7 +1057,7 @@ body {
   display: inline-block;
   font-size: 3rem;
   font-weight: 300;
-  padding: 1rem 2rem;
+  padding: 1rem;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -1215,5 +1209,3 @@ body {
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

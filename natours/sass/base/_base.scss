@@ -1,3 +1,4 @@
+@use "../abstracts/variables" as *;
 @use "../abstracts/mixins" as *;
 
 /* global reset */
@@ -37,3 +38,7 @@ body {
   }
 }
 
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
