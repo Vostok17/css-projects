@@ -1220,14 +1220,14 @@ body {
 .popup__left {
   width: 33.3333%;
   display: table-cell;
-  font-size: 0;
 }
 @media only screen and (max-width: 37.5em) {
   .popup__left {
     display: block;
     width: 100%;
+    font-size: 0;
     text-align: center;
-    white-space: nowrap;
+    padding-top: 8rem;
   }
 }
 .popup__right {
